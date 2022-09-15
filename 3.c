@@ -14,7 +14,7 @@ int main()
 
         dlin = strlen(word2); // определение длины слова
         if (dlin % 2 != 0){
-            sered = ((dlin-1) / 2);;
+            sered = ((dlin-1) / 2);
             alphg = word2[sered]; // взятие центрального символа
             for (a = 0; a < dlin; a ++)
                 if (word2[a] == alphg){ // долгий поиск вхождений
